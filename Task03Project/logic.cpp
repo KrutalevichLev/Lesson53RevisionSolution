@@ -5,7 +5,7 @@
 // которая вычисляет сумму чисел от N до M.
 
 #include "logic.h"
-
+//O(N - M)
 int sum(int n, int m) {
 	if (m > n) {
 		int temp = m;

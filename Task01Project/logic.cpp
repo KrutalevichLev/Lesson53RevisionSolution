@@ -1,5 +1,5 @@
 ﻿#include "logic.h"
-
+//O(N)
 int sum(int number) {
 	int count = 0;
 	if (number < 0) {

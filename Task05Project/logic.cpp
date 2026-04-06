@@ -5,7 +5,7 @@
 // которая подсчитывает количество цифр 
 // в заданном целом числе.
 
-/O(logN)
+//O(logN)
 int count(int number) {
 	if (number == 0) {
 		return 1;

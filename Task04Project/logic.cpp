@@ -1,5 +1,5 @@
 #include "logic.h"
-
+//O(N)
 long long sum_of_cubes(int number) {
 	if (number < 0) {
 		return number;
