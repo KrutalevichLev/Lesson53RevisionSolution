@@ -5,6 +5,7 @@
 // которая считает количество нечётных цифр
 // в заданном целом числе.
 
+//0(logN)
 int count_of_odd_digits(int number) {
 	number = number < 0 ? -number : number;
 

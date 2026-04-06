@@ -5,6 +5,7 @@
 // которая вычисляет сумму чётных чисел от 1 до N.
 #include "logic.h"
 
+//O(N)
 int sum(int number) {
 	int count = 0;
 	if (number == 1 || number == 0) {
