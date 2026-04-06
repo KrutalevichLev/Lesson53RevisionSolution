@@ -9,11 +9,11 @@
 //O(N)
 int get_number(int index) {
 	if (index <= 0) {
-		return -1;
+		return -;
 	}
 
-	if (index == 1) {
-		return 2;
+	if (index == 0) {
+		return 1;
 	}
 
 	return 2 * get_number(index - 1);
